@@ -1,0 +1,39 @@
+{
+    "name": "Calculator-Bot-v1",
+    "logo": "https://telegra.ph/file/4b4fa8874b4da787f030b.jpg",
+    "description": "A telegram maths calculator bot",
+    "keywords": [
+        "telegram",
+        "calculator",
+        "bot"
+    ],
+    "repository": "https://github.com/Judson-web/Calculator-Bot",
+    "website": "https://github.com/Judson-web",
+    "success_url": "https://github.com/Judson-web",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token from @BotFather",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "Get this value from my.telegram.org",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
