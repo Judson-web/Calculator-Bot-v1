@@ -30,7 +30,7 @@ START_BUTTONS = InlineKeyboardMarkup(
         ]
     ]
 )
-CALCULATE_TEXT = "Mᴀᴅᴇ ʙʏ [Tᴇxᴛ](https://t.me/VAMPIRE_KING_NO_1)"
+CALCULATE_TEXT = "Mᴀᴅᴇ ʙʏ @Username"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
     [
         [
