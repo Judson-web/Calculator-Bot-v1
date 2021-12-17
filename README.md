@@ -39,3 +39,17 @@
 </a>
 </p>
 </details>
+
+## Support
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/STMbOTsUPPORTgROUP)
+
+## Thanks to 
+
+ - Thanks To [FayasNoushad](https://github.com/FayasNoushad) 
+ - Thanks To Me Also ;)
+
+## Disclaimer
+[![MIT License](https://www.gnu.org/graphics/agplv3-155x51.png)](https://github.com/Judson-web/Calculator-Bot-v1/blob/main/LICENSE)    
+Licensed under [MIT License](https://github.com/Judson-web/Calculator-Bot-v1/blob/master/LICENSE) 
+
+Selling The Codes To Other People For Money Is *Strictly Prohibited*
