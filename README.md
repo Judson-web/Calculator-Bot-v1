@@ -17,7 +17,7 @@
 [![Contributors](https://img.shields.io/github/contributors/Judson-web/ID-Bot?style=flat-square&color=green)](https://github.com/Judson-web/Calculator-Bot-v1/graphs/contributors)
 
 # Demo BOT LINK:
-<a href="https://t.me/CalculatorExBot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+<a href="https://telegram.me/CalculatorExBot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 
 ### Variables
 <details><summary>Variables</summary>
