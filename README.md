@@ -38,7 +38,7 @@
 <p>
 <br>
 <a href="https://heroku.com/deploy?template=https://github.com/Judson-web/Calculator-Bot-v1/tree/main">
-  <img src="demobotlogo.svg" alt="Deploy">
+  <img src="deploytoherokulogo.svg" alt="Deploy">
 </a>
 </p>
 </details>
