@@ -53,6 +53,7 @@ CALCULATE_BUTTONS = InlineKeyboardMarkup(
             InlineKeyboardButton("⓪", callback_data="0"),
             InlineKeyboardButton("=", callback_data="="),
             InlineKeyboardButton("+", callback_data="+"),
+            InlineKeyboardButton("Hᴏᴍᴇ", callback_data="mickey"),
         ]
     ]
 )
