@@ -53,14 +53,12 @@ CALCULATE_BUTTONS = InlineKeyboardMarkup(
             InlineKeyboardButton("⓪", callback_data="0"),
             InlineKeyboardButton("=", callback_data="="),
             InlineKeyboardButton("+", callback_data="+"),
-            InlineKeyboardButton(":", callback_data=":"),
-            InlineKeyboardButton(";", callback_data=";"),
         ]
     ]
 )
 
 
-@Bot.on_message(filters.command(["start", ":", ";"]))
+@Bot.on_message(filters.command(["start", "mickey",]))
 async def start(bot, update):
     text = START_TEXT.format(update.from_user.mention)
     reply_markup = START_BUTTONS
