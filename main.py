@@ -18,6 +18,7 @@ START_BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/STMbOTsUPPORTgROUP'),
+            InlineKeyboardButton('Cᴀʟᴄᴜʟᴀᴛᴏʀ', url='https://t.me/CalculatorExBot?start=calculator'),
         ]
     ]
 )
@@ -58,7 +59,7 @@ CALCULATE_BUTTONS = InlineKeyboardMarkup(
 )
 
 
-@Bot.on_message(filters.command(["start", "mickey",]))
+@Bot.on_message(filters.command(["startt", "mickey",]))
 async def start(bot, update):
     text = START_TEXT.format(update.from_user.mention)
     reply_markup = START_BUTTONS
@@ -70,7 +71,7 @@ async def start(bot, update):
     )
 
 
-@Bot.on_message(filters.private & filters.command(["calc", "calculate", "calculator", "king"]))
+@Bot.on_message(filters.private & filters.command(["calc", "calculate", "calculator", "king", "start"]))
 async def calculate(bot, update):
     await update.reply_text(
         text=CALCULATE_TEXT,
