@@ -18,7 +18,7 @@ START_BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/STMbOTsUPPORTgROUP'),
-            InlineKeyboardButton('Cᴀʟᴄᴜʟᴀᴛᴏʀ', callback_data="king")
+            InlineKeyboardButton('Cᴀʟᴄᴜʟᴀᴛᴏʀ', callback_data="calculator")
         ]
     ]
 )
