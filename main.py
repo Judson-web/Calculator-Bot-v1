@@ -12,16 +12,17 @@ Bot = Client(
 START_TEXT = """Hᴇʟʟᴏ {},\n
 I ᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴄᴀʟᴄᴜʟᴀᴛᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ\n\nSᴇɴᴅ ᴍᴇ /calculator
 
-Mᴀᴅᴇ ʙʏ <a href="https://t.me/VAMPIRE_KING_NO_1">Yᴏᴜʀ Nᴀᴍᴇ</a>
+Mᴀᴅᴇ ʙʏ <a href="https://t.me/VAMPIRE_KING_NO_1">Tᴇʀʀᴏʀ Mɪᴄᴋᴇʏ</a>
 """
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/STMbOTsUPPORTgROUP')
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/STMbOTsUPPORTgROUP'),
+            InlineKeyboardButton('Cᴀʟᴄᴜʟᴀᴛᴏʀ', callback_data="king")
         ]
     ]
 )
-CALCULATE_TEXT = "Mᴀᴅᴇ Bʏ @Username"
+CALCULATE_TEXT = "Mᴀᴅᴇ Bʏ @VAMPIRE_KING_NO_1"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
     [
         [
